@@ -28,4 +28,4 @@ services:
             - /tmp/.X11-unix:/tmp/.X11-unix:rw
             - /etc/localtime:/etc/localtime
             - /etc/timezone:/etc/timezone
-        restart: always
+        restart: no
